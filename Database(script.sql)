@@ -1,1 +1,14 @@
+CREATE DATABASE useinventario_de_alimentos;
+;
 
+use inventario_de_alimentos;
+
+CREATE TABLE inventario_de_alimentos (
+  cantidad_del_producto INT(3),
+  descripcion_del_producto VARCHAR(25) NOT NULL,
+  precio float,
+  peso double,
+  sucursal TEXT
+);
+
+DESCRIBE task;
